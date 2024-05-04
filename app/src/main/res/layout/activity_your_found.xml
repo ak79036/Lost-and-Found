@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.your_found"
+    android:orientation="vertical"
+    android:background="@drawable/lost_section">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.App_overlay">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_full_image"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#2196F3"
+
+            app:popupTheme="@style/Theme.popup_overlay"
+
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_found_recycler"
+        android:layout_width="match_parent"
+
+        android:layout_height="660dp"
+        android:layout_marginTop="5dp" />
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="bottom"
+        android:background="@color/grey_darker" />
+
+
+</LinearLayout>

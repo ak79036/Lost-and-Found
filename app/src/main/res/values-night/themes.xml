@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LostAndFound" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="exampletoast">
+        <item name="backgroundColor">#3E9DE8</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="icon">@drawable/toast_recycler</item>
+        <item name="strokeColor">#4E4B4B</item>
+        <item name="strokeWidth">2dp</item>
+
+        <!--        <item name="cornerRadius">3dp</item>-->
+    </style>
+    <style name="exampletoast1">
+        <item name="android:colorBackground">#CF453B</item>
+        <item name="android:textColor">#2E2E2E</item>
+        <item name="android:icon">@drawable/baseline_error_24</item>
+        <item name="strokeColor">#F15727</item>
+        <item name="strokeWidth">2dp</item>
+
+        <!--        <item name="cornerRadius">3dp</item>-->
+    </style>
+
+</resources>

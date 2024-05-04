@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="9dp"
+    android:layout_margin="5dp">
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_person_pin_24"
+            android:visibility="gone">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/chat_right_background"
+            >
+
+            <TextView
+                android:id="@+id/chat_username"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/white"
+                android:text="chat_left_username"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/chat_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="5dp"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="hi, i am aditya kumar"
+
+                />
+
+            <TextView
+                android:id="@+id/chat_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="12:30pm"
+                android:textColor="@color/white"
+
+                android:textSize="10dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_layout_right1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/chat_right_background"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/chat_username_1"
+                android:text="username"
+                android:layout_marginLeft="5dp"
+                android:textSize="10dp"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                />
+
+            <ImageView
+                android:id="@+id/chat_image_right"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                />
+            <TextView
+                android:id="@+id/chat_time_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp"
+
+                android:layout_marginBottom="5dp"
+                android:visibility="gone"
+                android:text="12:30pm"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lost and Found</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="Username">Username</string>
+    <string name="Username1">Username1</string>
+    <string name="homescreenfragment">
+            Lost &amp; Found
+    </string>
+
+</resources>
